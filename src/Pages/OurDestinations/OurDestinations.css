@@ -1,0 +1,93 @@
+@import url(https://db.onlinewebfonts.com/c/b78a0f4f4e91efcc516fbf166696b352?family=Bodoni+Std+Book+Italic);
+@import url(https://db.onlinewebfonts.com/c/3948e11486aa3a9bfbe004f559c9d0e3?family=UniversLTStd-Light);
+
+@font-face {
+  font-family: "Bodoni Std Book Italic";
+  src: url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.eot");
+  src: url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b78a0f4f4e91efcc516fbf166696b352.svg#Bodoni Std Book Italic")
+      format("svg");
+}
+@font-face {
+  font-family: "UniversLTStd-Light";
+  src: url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.eot");
+  src: url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3948e11486aa3a9bfbe004f559c9d0e3.svg#UniversLTStd-Light")
+      format("svg");
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.destination-header {
+  font-family: "Bodoni Std Book Italic";
+  font-size: 70px;
+  color: #77328b;
+  letter-spacing: -1px;
+}
+
+.image-container2 {
+  margin-top: 70px;
+}
+.destination-image {
+  width: 800px;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.destination-description {
+  background: #ffffff;
+  padding: 60px 40px;
+  font-size: 17px;
+  width: 370px;
+  box-shadow: 1px 5px 20px #9a9a9a;
+  position: relative;
+  margin-top: -500px;
+  margin-left: 900px;
+}
+
+.dest-title {
+  font-family: "Bodoni Std Book Italic";
+  color: #77328b;
+  font-size: 30px;
+}
+
+.dest-text {
+  font-family: "UniversLTStd-Light";
+  color: #1b1b1b;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dest-button {
+  padding: 13px 30px 11px 30px;
+  font-family: "Bodoni Std Book Italic";
+  font-size: 20px;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #252776;
+  color: #ffffff;
+}

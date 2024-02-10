@@ -1,0 +1,133 @@
+.offer-card-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.offer-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  margin-right: 10px;
+  gap: 108px;
+}
+
+.offer-shadow {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  width: 360px;
+  height: 500px;
+}
+
+.offer-shadow:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.offer-heading {
+  color: #333;
+  text-align: center;
+  font-size: 30px;
+  line-height: 37px;
+  font-family: "PlayfairDisplay,Georgia,Times New Roman,serif";
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.offer-image {
+  width: 100%;
+  margin-bottom: 5px;
+  height: 175px;
+  background-color: #e7e8e9;
+}
+
+.offer-sub-columns {
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  width: auto;
+}
+
+.offer-type {
+  color: #333;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0% 0% 10% 0%;
+}
+
+.offer-date {
+  color: black;
+}
+
+.offer-title {
+  color: black;
+  margin-top: 4px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-weight: bold;
+}
+
+.offer-description {
+  margin-top: 6px;
+  height: 54px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.offer-price-text {
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  color: black;
+  padding-top: 35px;
+  font-size: 14px;
+}
+
+.text-medium {
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.offers-view-details-button {
+  display: flex;
+  justify-content: center;
+  min-width: 140px;
+  margin-top: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  color: #876a20;
+  border: 1px solid;
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.offer-button {
+  display: flex;
+  padding-bottom: 5px;
+  padding-top: 4px;
+  margin-left: 10px;
+  justify-content: center;
+}

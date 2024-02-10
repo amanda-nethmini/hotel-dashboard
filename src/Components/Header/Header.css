@@ -1,0 +1,131 @@
+.header {
+  background-color: #333;
+  height: 40px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 14px;
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+  font-family: Montserrat, Verdana, Helvetica, Arial, sans-serif;
+}
+
+.header-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.sub-items {
+  display: none;
+  position: fixed;
+  top: 98px;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.header-link:hover .sub-items {
+  display: block;
+}
+
+.header-link:hover:not(:has(.sub-items)) {
+  background-color: transparent;
+  color: #fff;
+}
+
+.header-link:hover:has(.sub-items) {
+  height: 40px;
+  color: #333;
+  background-color: #fff;
+}
+
+.sub-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-items li {
+  color: rgb(0, 0, 0);
+  padding: 5px 0;
+}
+
+.header-link:hover .icon svg {
+  color: #333;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.header-button {
+  border: 1px solid #fff;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sub-main-columns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  padding: 0 170px;
+}
+
+.sub-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 280px;
+}
+
+.sub-menu-title {
+  margin-top: 16px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.sub-menu-items {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+.sub-menu-items:hover {
+  color: #876a20;
+  cursor: pointer;
+}
+
+.sub-footer {
+  padding: 0 170px;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.sub-footer:hover {
+  color: #876a20;
+  cursor: pointer;
+}
